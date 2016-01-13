@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  overflow: auto;
+  height: auto;
+}
+
+h1{
+  font-size: 100px;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div{
+  float: left;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  margin: 10px;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.container img{
+  width: 100%;
+  position: absolute;
+}

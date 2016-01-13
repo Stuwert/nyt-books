@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1 NYT Books 
+  each book in books
+    div
+      h2= book.title
+      p= book.author
+      div.container
+        img(src= book.book_image)
